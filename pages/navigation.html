@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Достопримечательности</title>
+  </head>
+  <body>
+    <header>
+      <div class="info">
+        <h1>Экскурсовод</h1>
+        <p>Покажем и расскажем про достопримечательности</p>
+      </div>
+      <img src="../img/logo.png" alt="logo">
+    </header>
+    <main>
+      <div class="navigation">
+        <input type="checkbox" id="burger">
+        <label for="burger"><img src="../img/Burger.svg" alt="burger"></label>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="./info.html">Об авторе</a></li>
+            <li><div class="active">Экскурсии</div></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>Экскурсии в Санкт-Петербурге</h1>
+        <h2>Самые поплярные места у туристов</h2>
+        <div class="slider" id="blockSlider">
+          <div class="fullArea">
+            <div class="slider-line">
+              <div class="slide">
+                <h2>Государственный Эрмитаж</h2>
+                <img src="../img/ermitaj.jpg" alt="ermitaj">
+                <h3>
+                  Эрмитаж, Государственный Эрмитаж — российский государственный
+                  художественный и культурно-исторический музей в
+                  Санкт-Петербурге, одно из крупнейших в мире учреждений
+                  подобного рода.
+                </h3>
+              </div>
+              <div class="slide">
+                <h2>Исаакиевский собор</h2>
+                <img src="../img/isaak.jpg" alt="isaak">
+                <h3>
+                  Исаакиевский собор — крупнейший православный храм в
+                  Санкт-Петербурге. Расположен на Исаакиевской площади.
+                  Кафедральный собор Санкт-Петербургской епархии с 1858 по 1929
+                  год. С 1928 года имеет статус музея
+                </h3>
+              </div>
+              <div class="slide">
+                <h2>Спас на Крови</h2>
+                <img src="../img/spas.jpg" alt="spas">
+                <h3>
+                  Переведено с английского языка.-Храм Спаса-на-Крови — русская
+                  православная церковь в Санкт-Петербурге, Россия, которая в
+                  настоящее время функционирует как светский музей и церковь
+                  одновременно. Сооружение было построено между 1883 и 1907
+                  годами. Это одна из главных достопримечательностей
+                  Санкт-Петербурга.
+                </h3>
+              </div>
+              <div class="slide">
+                <h2>Казанский кафедральный собор</h2>
+                <img src="../img/kazan.jpg" alt="kazan">
+                <h3>
+                  Казанский собор — один из крупнейших храмов Санкт-Петербурга.
+                  Построен на Невском проспекте в 1801—1811 годах архитектором
+                  Андреем Воронихиным в стиле русского классицизма для хранения
+                  чтимого списка чудотворной иконы Божией Матери Казанской.
+                </h3>
+              </div>
+            </div>
+
+            <div class="points">
+              <span class="point"></span>
+              <span class="point"></span>
+              <span class="point"></span>
+              <span class="point"></span>
+            </div>
+
+            <div class="btns">
+              <div class="arrow" id="prev">
+                <img src="../img/prev.png" alt="prev">
+              </div>
+              <div class="arrow" id="next">
+                <img src="../img/next.png" alt="next">
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="recomendation">
+          <h2>Также рекомендуем посетить следующие места</h2>
+          <section class="el">
+            <div class="place">
+              <img src="../img/dvoretc.jpg" alt="dvoretc">
+              <h3>Дворцовая площадь</h3>
+            </div>
+            <div class="opened">
+              <img src="../img/dvoretc.jpg" alt="dvoretc">
+              <div class="trash">
+                <h3>Дворцовая площадь</h3>
+                <p>
+                  Дворцовая площадь — главная площадь Санкт-Петербурга,
+                  архитектурный ансамбль, возникший во второй половине XVIII —
+                  первой половине XIX века.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="el">
+            <div class="place">
+              <img src="../img/avrora.jpg" alt="avrora">
+              <h3>Крейсер Аврора</h3>
+            </div>
+            <div class="opened">
+              <img src="../img/avrora.jpg" alt="avrora">
+              <div class="trash">
+                <h3>Крейсер Аврора</h3>
+                <p>
+                  «Аврора» — крейсер 1-го ранга Балтийского флота типа «Диана».
+                  Назван в честь парусного фрегата «Аврора», прославившегося при
+                  обороне Петропавловска-Камчатского в годы Крымской войны. Во
+                  время русско-японской войны участвовал в походе Второй
+                  Тихоокеанской эскадры, закончившемся Цусимским сражением.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="el">
+            <div class="place">
+              <img src="../img/kunst.jpg" alt="kunst">
+              <h3>Кунсткамера</h3>
+            </div>
+            <div class="opened">
+              <img src="../img/kunst.jpg" alt="kunst">
+              <div class="trash">
+                <h3>Кунсткамера</h3>
+                <p>
+                  Кунсткамера — кабинет редкостей — первый музей в России,
+                  учреждённый царём Петром I в Санкт-Петербурге. Обладает
+                  уникальной коллекцией предметов старины, раскрывающих историю
+                  и быт многих народов. Но многим этот музей известен своей
+                  «особенной» коллекцией анатомических редкостей и аномалий
+                </p>
+              </div>
+            </div>
+          </section>
+          <h2>Цены экскурсий</h2>
+        </section>
+        <table>
+          <tbody><tr>
+            <th>Экскурсии</th>
+            <th>Цены</th>
+          </tr>
+          <tr>
+            <td>Кунсткамера</td>
+            <td>1200р</td>
+          </tr>
+          <tr>
+            <td>Крейсер Аврора</td>
+            <td>800р</td>
+          </tr>
+          <tr>
+            <td>Государственный Эрмитаж</td>
+            <td>1000р</td>
+          </tr>
+          <tr>
+            <td>Исаакиевский собор</td>
+            <td>450р</td>
+          </tr>
+        </tbody></table>
+      </div>
+    </main>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
